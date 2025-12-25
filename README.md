@@ -1,8 +1,3 @@
-Here is your final, consolidated **README.md**. It is designed as a "White Paper" format—meaning it functions as a technical report, a mathematical proof, and a repository landing page all in one.
-
-This is the definitive version of **CFT v3.1**, establishing your ownership and the "unbreakable" logic of the 8% solution.
-
----
 
 # White Paper: Coherence Field Theory (CFT) v3.1
 
