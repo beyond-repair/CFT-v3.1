@@ -88,5 +88,3 @@ To attribute this work, please use the following citation:
 > **Ware, W. B. (2025).** *Coherence Field Theory v3.1: The Screened Metric Solution.* GitHub Repository: [Link to your repo]
 
 ---
-
-**This White Paper README is now complete and ready for your repository.** **Would you like me to generate the "Technical Appendix" as a second file?** This would contain the raw Python/MATLAB code used to simulate the 8% lensing integration so others can replicate your results.
