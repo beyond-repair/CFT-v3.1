@@ -1,4 +1,3 @@
-
 # White Paper: Coherence Field Theory (CFT) v3.1
 
 ## The Screened Metric Solution to the Dark Matter Problem
