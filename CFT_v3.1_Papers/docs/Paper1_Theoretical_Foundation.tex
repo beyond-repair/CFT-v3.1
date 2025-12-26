@@ -1,11 +1,24 @@
 \documentclass[12pt, a4paper]{article}
-\usepackage{amsmath, amssymb, amsfonts}
-\usepackage{graphicx}
-\usepackage{geometry}
-\usepackage{hyperref}
-\geometry{margin=1in}
 
-\title{The Screened Metric: A Volumetric Theory of Gravitation}
+% --- Essential Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsfonts} % For advanced math symbols
+\usepackage{graphicx}                   % For including images
+\usepackage{geometry}                   % For page margins
+\usepackage{hyperref}                   % For clickable links
+\usepackage{xcolor}                     % For colored text
+
+% --- Page Setup ---
+\geometry{margin=1in}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan,
+    pdftitle={The Screened Metric: CFT v3.1}
+}
+
+% --- Document Metadata ---
+\title{\textbf{The Screened Metric: A Volumetric Theory of Gravitation}}
 \author{William B. Ware}
 \date{\today}
 
@@ -14,25 +27,32 @@
 \maketitle
 
 \begin{center}
-\textbf{Copyright (c) 2025 William B. Ware. CC BY 4.0 License.}
+    \small \textbf{Copyright (c) 2025 William B. Ware. Licensed under CC BY 4.0.}
 \end{center}
 
 \begin{abstract}
-This paper introduces the theoretical foundation of Coherence Field Theory (CFT) v3.1, proposing that gravity is a volumetric metric response of the vacuum. A fundamental elasticity constant, the Ware Constant (\(\zeta = 0.08\)), is activated in ordered, virialized systems via the Mass-Density Screening (MDS) mechanism. This framework eliminates the need for hypothetical dark matter particles and provides a unified, scalable metric across atomic to galactic systems.
+This paper introduces the theoretical foundation of Coherence Field Theory (CFT) v3.1, proposing that gravity is a volumetric metric response of the vacuum. We identify a fundamental elasticity constant, the Ware Constant ($\zeta = 0.08$), which is latent in the vacuum and activated in ordered, virialized systems via the Mass-Density Screening (MDS) mechanism. This framework provides a mathematically closed alternative to the dark matter hypothesis, offering a unified metric that scales from atomic to cosmological regimes.
 \end{abstract}
 
-\section{Introduction}
-Gravity is not merely a surface interaction of mass; it is a volumetric response encoded in the structure of spacetime itself. The vacuum possesses an intrinsic elasticity, suppressed in disordered systems and triggered by structural order.
+\hrule
+\vspace{1em}
 
-\section{Core Discovery}
+\section{Introduction}
+Modern astrophysics relies on the inclusion of non-baryonic "dark matter" to account for observed gravitational anomalies. Coherence Field Theory (CFT) v3.1 suggests instead that gravity is a volumetric response encoded in the structure of spacetime itself. We propose that the vacuum possesses an intrinsic elasticity that remains suppressed in disordered systems and is triggered by structural order and mass density.
+
+\section{Core Discovery: The Volumetric Backreaction}
+The transition from Newtonian or GR-based models to CFT v3.1 rests on three pillars:
+
 \begin{itemize}
-    \item \textbf{Volumetric Metric Response:} The vacuum contributes to gravitational effects proportionally to structural order.  
-    \item \textbf{Ware Constant (\(\zeta = 0.08\)):} Universal elasticity of the vacuum.  
-    \item \textbf{Mass-Density Screening (MDS):} Activation function \(S(\rho, L)\) ensures effects manifest only in virialized, ordered baryonic systems.
+    \item \textbf{Volumetric Response:} Space-time contributes to gravitational potential proportionally to the integrated structural order along a line of sight.  
+    \item \textbf{Ware Constant ($\zeta = 0.08$):} A universal constant representing the 8\% vacuum backreaction.  
+    \item \textbf{Mass-Density Screening (MDS):} A non-linear activation function $S(\rho, L)$ that ensures the vacuum backreaction only manifests when specific density and scale thresholds are met.
 \end{itemize}
 
-\section{Field Equation}
-The master field equation of CFT v3.1 extends Einstein's general relativity:
+
+
+\section{The Master Field Equation}
+The master field equation of CFT v3.1 extends the Einstein Field Equations by adding a screened coherence term:
 
 \begin{equation}
 G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G \Big( T_{\mu\nu} + S(\rho, L) \cdot \zeta I_{\mu\nu} \Big)
@@ -40,15 +60,17 @@ G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G \Big( T_{\mu\nu} + S(\rho, L) \cdot \ze
 
 Where:
 \begin{itemize}
-    \item \(I_{\mu\nu}\) = Coherence Tensor (structural information density)  
-    \item \(S(\rho, L)\) = Screening factor (activation threshold)  
-    \item \(\zeta = 0.08\) = Ware Constant  
+    \item $G_{\mu\nu}$ is the Einstein Tensor (Spacetime Curvature).
+    \item $T_{\mu\nu}$ is the Stress-Energy Tensor (Baryonic Matter).
+    \item $I_{\mu\nu}$ is the Coherence Tensor representing the structural information density of the vacuum.
+    \item $S(\rho, L)$ is the Screening factor, typically expressed as a sigmoid function: $S \approx \tanh(\rho / \rho_{th})$.
+    \item $\zeta = 0.08$ is the Ware Constant.
 \end{itemize}
 
-\section{Significance}
-This equation replaces the need for dark matter particles with a **geometric backreaction of the vacuum itself**, producing measurable effects in galaxies, clusters, and atomic systems where the density and scale thresholds are met.
+\section{The Screening Mechanism}
+The MDS function is critical for the theory's "unbreakable" status. It prevents the 8\% backreaction from interfering with precision tests in low-density environments (e.g., electronic hydrogen or the Solar System) while allowing it to saturate to $\zeta$ in high-density or high-order environments (e.g., muonic atoms or galactic disks).
 
 \section{Conclusion}
-The theoretical framework presented here is mathematically closed, universal, and parsimonious. It provides the foundation for cross-scale empirical verification presented in Paper 2.
+The theoretical framework of CFT v3.1 provides a parsimonious, geometric explanation for the "missing mass" in the universe. By treating the vacuum as an active, coherent medium rather than a passive background, we eliminate the need for hypothetical particles and unify gravitational behavior across fifteen orders of magnitude. This framework provides the formal basis for the empirical validations presented in Paper 2.
 
 \end{document}
